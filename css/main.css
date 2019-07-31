@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    display: flex;
+    margin: 0;
+    font-family: Helvetica;
+    flex-direction: column;
+    align-content: center;
+  }
+
+img {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+
+h1 {
+    height: 45px;
+    width: 400px;
+    line-height: 45px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: #94C380;
+    color: white;
+    text-transform: uppercase;
+}
+
+.data-entry {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+    height: 45px;
+
+}
+.input-box {
+    border: 3px solid #94C380;
+    width: 300px;
+    font-size: 14px;
+}
+
+.add-skill-btn {
+    border: 3px solid #94C380;
+    color: #94C380;
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.add-skill-btn:hover {
+    color: black;
+    background-color: #94C380;
+}
+
+div.skills-list {
+    display: grid;
+    width: 400px;
+    text-align: left;
+    margin: 5px auto;
+}
+
+button.remove-btn {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid white;
+    /* border-radius: 50%; */
+}
+
+button.remove-btn:hover {
+    background-color: white;
+}
+
+td.btn {
+    width: 28px;
+    padding-right: 20px;
+}
+
